@@ -1,35 +1,28 @@
-* {
+body {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1;
+  color: #333;
+  background-color: #f1f1f1;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: "Almendra", serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 22px;
-  line-height: 1.5;
-  color: #333;
-  background-color: #f1f1f1;
-}
-
 footer, header {
-  background-color: #222222;
+  background-color: #00171F;
   color: #FFFFFF;
   padding: 20px;
   text-align: center;
+  font-size: 22px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-footer {
-  height: 95px;
-  font-size: 22px;
 }
 
 nav ul {
@@ -41,21 +34,14 @@ nav li {
   margin-right: 20px;
 }
 
-nav a {
-  color: #84DCC6;
+nav a, footer a {
+  color: #00A8E8;
   text-decoration: none;
   font-weight: bold;
 }
 
-.navbar a {
-    font-size: 22px;
-    background-color: #222222;
-    color: #84DCC6;
-    display: block;
-    text-align: center;
-    padding: 18px 16px;
+main a {
     text-decoration: none;
-    margin: 10px 0px 0px 0px;
 }
 
 nav a:hover, .navbar a:hover {
@@ -66,19 +52,31 @@ main {
   padding: 20px;
   margin: 0 auto;
   text-align: left;
-  background-color: #95A3B3; 
-  height: 750px;
-  font-size: 28px;
+  background-color: #99E2FF; 
+  font-size: 22px;
   line-height: 1;
   color: #222222;
+  min-height: 600px;
 }
 
 h1 {
-  color: #84DCC6;
+  color: #47D1FF;
 } 
 
 h2, h3, h4, h5, h6 {
   color: #222222;
 }
 
+figure img {
+    max-height: 26%;
+    max-width: 26%;
+    display: block;
+    padding-bottom: 30px;
+}
 
+figcaption {
+    font-size: 22px;
+    color: #555;
+    text-align: left;
+    margin-top: -10px;
+}
