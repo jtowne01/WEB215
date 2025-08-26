@@ -56,7 +56,7 @@ main {
   font-size: 22px;
   line-height: 1;
   color: #222222;
-  min-height: 600px;
+  min-height: 640px;
 }
 
 h1 {
@@ -80,3 +80,4 @@ figcaption {
     text-align: left;
     margin-top: -10px;
 }
+
